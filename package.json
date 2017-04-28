@@ -1,0 +1,19 @@
+{
+  "name": "lightbox",
+  "version": "0.0.1",
+  "description": "Logo Light Box with Pi Zero and Mote pHAT",
+  "main": "lightbox.py",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "resin.io",
+    "pimoroni",
+    "mote",
+    "logo",
+    "lightbox"
+  ],
+  "author": "Frederick Vandenbosch <f.vdbosch@gmail.com>",
+  "homepage": "http://frederickvandenbosch.be/?p=2552",
+  "license": "ISC"
+}
