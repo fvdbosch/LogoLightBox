@@ -14,6 +14,12 @@ facebookUrl = os.environ.get('facebook')
 youtubeUrl = os.environ.get('youtube')
 instagramUrl = os.environ.get('instagram')
 
+# Example links for different social networks
+#
+# Facebook: http://www.likealyzer.com/facebook/frederickvandenbosch
+# Twitter: https://twitter.com/f_vdbosch?lang=en
+# Youtube: https://www.youtube.com/c/FrederickVandenbosch
+# Instagram: https://www.instagram.com/f_vdbosch/
 
 def getTwitterFollowers():
 	followers = os.popen("curl -s %s | grep 'data-nav=\"followers\"' | grep -o '[0-9|,]\+' | tr -d ','" % twitterUrl).read()
