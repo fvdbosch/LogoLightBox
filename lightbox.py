@@ -27,7 +27,7 @@ def getTwitterFollowers():
 	return followers
 
 def getFacebookLikes():
-	likes = os.popen("curl -s %s | grep 'Likes:' | grep -o '[0-9]\+'" % facebookUrl).read()
+	likes = os.popen("curl -s %s | grep 'Likes:' | grep -o '[0-9|,]\+' | tr -d ','" % facebookUrl).read()
 
 	return likes
 
